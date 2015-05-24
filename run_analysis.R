@@ -40,7 +40,7 @@ cnames<-c("subject", "activity",
           "tBodyGyroMag-mean","tBodyGyroMag-std", "tBodyGyroJerkMag-mean","tBodyGyroJerkMag-std", 
           "fBodyAcc-mean-X","fBodyAcc-mean-Y","fBodyAcc-mean-Z","fBodyAcc-std-X","fBodyAcc-std-Y","fBodyAcc-std-Z",
           "fBodyAccJerk-mean-X","fBodyAccJerk-mean-Y","fBodyAccJerk-mean-Z","fBodyAccJerk-std-X","fBodyAccJerk-std-Y","fBodyAccJerk-std-Z",
-          "fBodyGyro-mean-X","fBodyGyro-mean-Y","fBodyGyro-mean-Z","fBodyGyro-std-X","fBodyGyro-std-Y","fBodyGyro-std()-Z",
+          "fBodyGyro-mean-X","fBodyGyro-mean-Y","fBodyGyro-mean-Z","fBodyGyro-std-X","fBodyGyro-std-Y","fBodyGyro-std-Z",
           " fBodyAccMag-mean"," fBodyAccMag-std","fBodyBodyAccJerkMag-mean","fBodyBodyAccJerkMag-std","fBodyBodyGyroMag-mean","fBodyBodyGyroMag-std",
           " fBodyBodyGyroJerkMag-mean"," fBodyBodyGyroJerkMag-std")
           
@@ -60,7 +60,7 @@ cat (nrow(newSet), ncol(newSet))
 ##convert columns to numeric
 newSet[, c(1,3:68)] <- sapply(newSet[, c(1,3:68)], as.numeric)
 ##print(colnames(newSet))
-write.csv(newSet, file="output.csv")
+##write.csv(newSet, file="output.csv")
 
 
 
