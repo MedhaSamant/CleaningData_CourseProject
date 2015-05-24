@@ -5,7 +5,6 @@ Course project for "getting and cleaning data" course
 This repo contains R code and associated information to get mean data 
 from the accelerometer and gyroscope 3-axial for 30 people over 
 6 different activities.
-==================================================================
 
 The experiments have been carried out with a group of 30 volunteers 
 within an age bracket of 19-48 years. Each person performed six 
